@@ -1,0 +1,15 @@
+package:
+  format-version: "1.0.0"
+  name: "secure_services"
+  version: "v1.0.0"
+  type: "api"
+  status: "production"
+  required: false
+
+  dependencies:
+    - name: "csp"
+      type: "package"
+      version: "v3.23.0"
+    - name: "core"
+      type: "package"
+      version: "v3.15.5"
